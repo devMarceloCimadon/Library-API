@@ -74,6 +74,21 @@ All the paths from API starts with:` /api `
 | Update User By ID | Put      | /users/{userId} |
 | Delete User By ID | Delete   | /users/{userId} |
 
+- Create User body:
+````json
+{
+  "name" : "Example Name",
+  "email" : "email@example.com"
+}
+````
+
+- Update User body:
+````json
+{
+  "email" : "otheremail@example.com"
+}
+````
+
 ### Book:
 | **Actions**       | **Type** | **Path**        |
 |-------------------|----------|-----------------|
@@ -81,6 +96,15 @@ All the paths from API starts with:` /api `
 | List Books        | Get      | /books          |
 | Get Book By ID    | Get      | /books/{bookId} |
 | Delete Book By ID | Delete   | /books/{bookId} |
+
+- Create Book body:
+````json
+{
+  "name" : "Book name example",
+  "author" : "Name example",
+  "publisher" : "Enterprise example"
+}
+````
 
 ### Loan:
 | **Actions**       | **Type** | **Path**        |
@@ -90,6 +114,16 @@ All the paths from API starts with:` /api `
 | Get Loan By ID    | Get      | /loans/{loanId} |
 | Update Loan By ID | Put      | /loans/{loanId} |
 | Delete Loan By ID | Delete   | /loans/{loanId} |
+
+- Create Loan body:
+````json
+{
+  "userId" : "{userId}",
+  "bookId" : "{bookId}"
+}
+````
+
+- Update don't need a body, because it only updates the return date.
 
 ## ☝️🤓Author
 

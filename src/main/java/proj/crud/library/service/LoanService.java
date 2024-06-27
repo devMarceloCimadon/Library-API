@@ -22,7 +22,6 @@ public class LoanService {
     public UUID createLoan(CreateLoanDto createLoanDto){
         Date loanDate = new Date();
 
-        //Pega a data de hoje e aumentar 7 dias(uma semana, que irá ser a previsão de devolução)
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(loanDate);
         calendar.add(Calendar.DAY_OF_YEAR, 7);

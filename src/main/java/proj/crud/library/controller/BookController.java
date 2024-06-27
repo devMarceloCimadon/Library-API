@@ -38,12 +38,6 @@ public class BookController {
         return ResponseEntity.ok(books);
     }
 
-//    @PutMapping("/{bookId}")
-//    public ResponseEntity<Book> updateById(@PathVariable("bookId") String id, UpdateBookDto updateBookDto){
-//        bookService.updateBookById(id, updateBookDto);
-//        return ResponseEntity.ok().build();
-//    }
-
     @DeleteMapping("/{bookId}")
     public ResponseEntity<Void> deleteBookById(@PathVariable("bookId") String bookId){
         bookService.deleteUserById(bookId);

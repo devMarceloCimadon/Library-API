@@ -14,11 +14,14 @@
 
 ## 🖥️About the Project
 
-The project is a study on creating APIs using Java and Spring. An example library was used, where the software needs to handle the creation, manipulation, and deletion of the User, Book, and Loan classes. The main goal is to create a functional backend that adapts to various business rules as needed.
+The project is a study on creating APIs using Java and Spring. An example library was used, where the software needs to 
+handle the creation, manipulation, and deletion of the User, Book, and Loan classes. The main goal is to create a functional 
+backend that adapts to various business rules as needed.
 
 ## ⚙️Funcionalities
 
-<p>All the classes will represent tables in our database, so we have created classes to manipulate the data in those table, specifically Repository and Service.</p>
+<p>All the classes will represent tables in our database, so we have created classes to manipulate the data in those table, 
+specifically Repository and Service.</p>
 <p>The classes also need DTO classes, to avoid access the entity directly.</p> 
 
 ### User:
@@ -43,6 +46,7 @@ The technologies used were:
 - [Spring](https://spring.io)
 - [Spring Data JPA](https://docs.spring.io/spring-data/jpa/reference/index.html)
 - [Docker](https://www.docker.com)
+- [MySQL](https://www.mysql.com)
 
 ## 🛠️Instalation
 

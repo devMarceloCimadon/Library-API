@@ -18,7 +18,7 @@ The project is a study on creating APIs using Java and Spring. An example librar
 handle the creation, manipulation, and deletion of the User, Book, and Loan classes. The main goal is to create a functional 
 backend that adapts to various business rules as needed.
 
-## ⚙️Funcionalities
+## ⚙️Functionalities
 
 <p>All the classes will represent tables in our database, so we have created classes to manipulate the data in those table, 
 specifically Repository and Service.</p>
